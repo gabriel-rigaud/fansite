@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="/css/contact.css">
+    <link rel="icon" type="image/jpng" href="/img/logo.jpg">
+</head>
+<body>
+<nav class="menu">
+    <center>
+        <ul>
+            <li class="btn"> <a href="index.html">Home</a> </li>
+            <li class="btn"> <a href="news.html">News</a> </li>
+            <li class="btn"> <a href="video.html">Vidéo</a> </li>
+            <li class="btn"> <a href="contact.html">Contact</a> </li>
+        </ul>
+    </center>
+</nav>
+
+<h1 class="titre">Contactez-Nous</h1>
+<p>Des questions ? Des idées ? Des conseilles ? On prend tout vos question !</p>
+
+<form action="/ma-page-de-traitement" method="post">
+    <div>
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="user_name">
+    </div>
+    <div>
+        <label for="mail">E-mail&nbsp;:</label>
+        <input type="email" id="mail" name="user_mail">
+    </div>
+    <div>
+        <label for="sujet">Quel est le sujet de votre message ?</label>
+        <select name="sujet" id="sujet" required>
+            <option value="" disabled selected hidden>Choisissez le sujet de votre message</option>
+            <option value="probleme-compte">Problème sur le site</option>
+            <option value="question-produit">Beug récurrent</option>
+            <option value="suivi-commande">Postuler</option>
+            <option value="autre">Autre...</option>
+        </select>
+    </div>
+    <div>
+        <label for="msg">Message :</label>
+        <textarea id="msg" name="user_message"></textarea>
+    </div>
+    <div>
+        <label for="message">Votre message</label>
+        <textarea id="message" name="message" placeholder="Bonjour, je vous contacte car...." required></textarea>
+    </div>
+    <div class="button">
+        <button type="submit">Envoyer le message</button>
+    </div>
+</form>
+
+<footer>
+    <a href="video.html"><img class="retour"  src="https://cdn-icons-png.flaticon.com/512/2879/2879593.png"></a>
+    <p class="copyright">Gabriel Compagnie / 2020 Copyright &copy;</p>
+</footer>
+</body>
+</html>

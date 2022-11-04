@@ -1,0 +1,117 @@
+body {
+    background: url("https://images.alphacoders.com/880/880723.jpg")no-repeat;
+    background-size: 100%;
+    background-color: #888888;
+    font-family: "Segoe Script";
+}
+
+@media screen and (max-width: 1499px){
+    body{
+        background-size: 130%;
+        background-position: 80% 30%;
+    }
+
+    .suivant{
+        top: 52em;
+    }
+
+    .copyright{
+        top: 33em;
+    }
+}
+
+.titre {
+    color: white;
+}
+
+
+h1,p {
+    color: white;
+}
+
+.name-music {
+    color: white;
+    font-size: 22px;
+    text-align: right;
+    font-family: "Microsoft PhagsPa"
+}
+
+.music{
+    display: flex;
+    justify-content: right;
+}
+
+.wiki{
+    width: 160px;
+    display: block;
+    margin-left: auto;
+    position: static;
+}
+
+.wikitext{
+    float: center;
+    display: block;
+    position: relative;top: -200px;
+    text-align: start;
+    font-size: 14px;
+    color: darkgrey;
+}
+
+nav.menu ul li {
+
+    display: inline-block;
+    padding:15px;
+    font-size: 25px;
+}
+
+nav.menu ul li.btn a{
+
+    color: azure;
+    background-color: black;
+    text-decoration: none;
+
+}
+
+nav.menu ul li.btn:hover a{
+
+    color: black;
+    background-color: azure;
+    transition: 0.3s all;
+
+}
+
+.description p{
+    display: inline-block;
+    color: yellow;
+    padding: 10px;
+    font-size: 13.5px;
+}
+
+.rimg {
+    display: block;
+    position: relative;top: 40px;
+    float: left;
+    padding: 20px;
+
+}
+
+.rtext {
+    text-align: end;
+    margin-top: 120px;
+    font-size: 14px;
+}
+
+.suivant{
+    float: right;
+    width: 60px;
+    position: absolute;left: 90%;
+    bottom: -15em;
+}
+
+.copyright {
+    text-align: center;
+    position: absolute;
+    bottom: -7em;
+    width: 98%;
+    font-size: 25px;
+}
